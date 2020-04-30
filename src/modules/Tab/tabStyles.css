@@ -1,0 +1,51 @@
+div { display: flex; }
+
+.container {
+  width: 100%;
+  flex-direction: column;
+}
+
+.tab-container {
+  width: 100vw;
+  position: relative;
+  overflow-x: scroll;
+}
+
+.show-more {
+  border: 1px solid blue;
+}
+.show-more img {
+  width: 1rem; 
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: large;
+  border: 1px solid transparent;
+  width: 15rem;
+}
+
+.active {
+  border-bottom: 4px solid blue;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.content h1 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.content p {
+  text-align: start;
+}
